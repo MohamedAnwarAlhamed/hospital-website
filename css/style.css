@@ -67,10 +67,9 @@ section {
   top: 0%;
 }
 
-.button:hover{
-    box-shadow: .1rem .5rem var(--blue),
-                0 .3rem .5rem rgba(0,0,0,.3);
-  }
+.button:hover {
+  box-shadow: 0.1rem 0.5rem var(--blue), 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
 
 /* header */
 
@@ -87,6 +86,12 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-active{
+  background:#fff;
+  box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+  padding: .5rem 1rem;
 }
 
 header a {
@@ -147,6 +152,32 @@ header .fa-times {
 .home .content h3 {
   font-size: 4rem;
   color: var(--black);
+}
+
+/* about */
+
+.about {
+  background: #eee;
+}
+
+.about .content .box {
+  margin: 3rem 0;
+}
+
+.about .content .box h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.about .content .box h3 i {
+  padding: 0 1rem;
+  color: var(--blue);
+}
+
+.about .content .box p {
+  font-size: 1.7rem;
+  padding-left: 6rem;
+  color: #666;
 }
 
 /* media query */
