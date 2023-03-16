@@ -18,4 +18,13 @@ $(document).ready(function(){
         }
     
       });
+
+      // facility
+      $('.facility').magnificPopup({
+        delegate:'a',
+        type:'image',
+        gallery:{
+          enabled:true
+        }
+      });
 });
